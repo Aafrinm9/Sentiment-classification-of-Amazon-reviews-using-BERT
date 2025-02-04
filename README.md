@@ -58,7 +58,7 @@ To predict the sentiment of user reviews, the following approach was adopted:
 
 ## Results
 
-The model achieved an accuracy score of 90% on the test set, indicating a high level of performance in classifying the sentiment of Amazon reviews.
+The model achieved an accuracy score of 83% on the test set, indicating a high level of performance in classifying the sentiment of Amazon reviews.
 
 ## Conclusion
 
