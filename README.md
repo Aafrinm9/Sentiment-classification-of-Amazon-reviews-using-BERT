@@ -34,6 +34,7 @@ The original data was in JSON format. Key preprocessing steps included:
 1. **Transformation**: Converted JSON data into CSV format to facilitate machine learning processes.
 2. **Cleaning**: Removed duplicates, handled missing values, and standardized text data.
 3. **Tokenization**: Employed BERT's tokenizer to convert textual data into token IDs suitable for model input.
+Note: Check JSON 2 CSV.ipynb for the code
 
 ## Exploratory Data Analysis
 
@@ -42,6 +43,7 @@ An in-depth exploratory data analysis was conducted to understand the dataset's 
 - **Rating Distribution**: Visualized the distribution of product ratings.
 - **Review Length**: Analyzed the length of reviews to determine optimal input sizes for the model.
 - **Common Words**: Identified frequently occurring terms in positive and negative reviews.
+- Note: Check EDA.ipynb for the code
 
 For detailed visualizations and insights, please refer to the attached EDA file.
 
@@ -49,9 +51,10 @@ For detailed visualizations and insights, please refer to the attached EDA file.
 
 To predict the sentiment of user reviews, the following approach was adopted:
 
-1. **Feature Extraction with BERT**: Utilized BERT to convert textual data into numerical representations. BERT captures the context of words in a sentence by considering both preceding and succeeding words, making it highly effective for sentiment analysis tasks. :contentReference[oaicite:0]{index=0}
+1. **Feature Extraction with BERT**: Utilized BERT to convert textual data into numerical representations. BERT captures the context of words in a sentence by considering both preceding and succeeding words, making it highly effective for sentiment analysis tasks. :contentReference[oaicite:0]{index=0}  Note: Check BERT.ipynb for the code
+   
 
-2. **Classification with Random Forest**: Implemented a Random Forest classifier to predict the sentiment based on BERT's embeddings. The dataset was split into training, validation, and testing sets in a 70:15:15 ratio.
+3. **Classification with Random Forest**: Implemented a Random Forest classifier to predict the sentiment based on BERT's embeddings. The dataset was split into training, validation, and testing sets in a 70:15:15 ratio. Note: Check RandomForest.ipynb for the code
 
 ## Results
 
